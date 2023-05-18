@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+/*cabecalho*/
+header{
+    background-color: #A4BAD2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+}
+header .link-logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 28px;
+    color: #0E2A4A;
+    font-weight: 500;
+}
+header .link-logo span{
+    color: #fff;
+}
+header .link-logo img{
+    width: 70px;
+}
+
+
+header form .form-busca{
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+   outline-style: none;
+}
+header form .form-busca::placeholder{
+    color: #949494;
+    padding-left: 26px;
+    font-size: 15px;
+}
+
+header .input-icons i{
+    position: absolute;
+}
+header .input-icons {
+    width: 100%;
+    
+}
+header .icon {
+    padding: 10px;
+    color: #949494;
+    min-width: 50px;
+    margin-top: -3px;
+    font-size: 14px;
+}
+
+
+header .form-busca{
+    width: 100%;
+    padding: 10px;
+}
+
+header ul, li a{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 10px;
+    padding-right: 10px;
+    color: black;
+}
+header  .btn-login{
+   background-color: #0E2A4A;
+   padding: 3px 15px;
+   color:#fff;
+   border-radius: 4px;
+   font-weight: 600;
+   letter-spacing: 0.5px;
+   font-size: 15px;
+   transition: .5s;
+}
+header  .btn-login:hover{
+    background-color: #fff;
+    color: #0E2A4A;
+}
+
+header  .btn-login i{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-left: -4px;
+ }
+ 
+
+/*conteudo*/
+.banner{
+    background-image: url("../img/banner.png");
+    height: 100%;
+    padding-bottom: 9rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.banner p {
+    padding-top: 9rem;
+    font-size: 32px;
+    font-weight: 300;
+}
+.banner h1 {
+    font-size: 48px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.banner a {
+    text-decoration: none;
+    color: #81BBFA;
+    font-size: 24px;
+}
+.banner a:hover {
+   color: #A4BAD2;
+}
+
+.poemas-destaques h2{
+    margin-left: 10rem;
+    margin-top: 3rem;
+    color: #063E7D;
+}
+
+.flex-poema{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10rem;
+    padding: 20px;
+    height: 370px;
+    flex-wrap: wrap;
+}
+
+.flex-poema .poema{
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 400px;
+   padding: 0px 15px;
+}
+.flex-poema .poema .perfil{
+   margin-left: 17rem;
+   padding-top: 3px;
+}
+
+.flex-poema .poema h3{
+  color: #0E2A4A;
+  font-size: 32px;
+}
+.flex-poema .poema .data{
+    margin-left: 10rem;
+    color: #1683FF;
+}
+
+.flex-poema .poema .btn-poema{
+   background-color: #0E2A4A;
+   border: 2px solid #0E2A4A;
+   color: #fff;
+   padding: 3px;
+   border-radius: 4px;
+   text-decoration: none;
+   display: inline-block;
+   transition: .5s;
+}
+.flex-poema .poema .btn-poema:hover{
+    background-color: transparent;
+    border: 2px solid #0E2A4A;
+    color: #0E2A4A;
+}
+.flex-poema .poema .botao{
+    text-align: center;
+}
+.flex-poema .poema .icones{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+   margin-top: 10px;
+}
+.flex-poema .poema .icones .icone-coracao i{
+   color: red;
+}
+ 
+.paragrafos{
+    margin-bottom: 1rem;
+    margin-top: 4px;
+}
+
+
+
+
+
+
+
+
