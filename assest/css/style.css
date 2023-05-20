@@ -79,7 +79,7 @@ header  .btn-login{
    padding: 3px 15px;
    color:#fff;
    border-radius: 4px;
-   font-weight: 600;
+   font-weight: 400;
    letter-spacing: 0.5px;
    font-size: 15px;
    transition: .5s;
@@ -87,6 +87,7 @@ header  .btn-login{
 header  .btn-login:hover{
     background-color: #fff;
     color: #0E2A4A;
+    font-weight: 400;
 }
 
 header  .btn-login i{
@@ -153,7 +154,6 @@ header  .btn-login i{
    padding: 0px 15px;
 }
 .flex-poema .poema .perfil{
-   margin-left: 17rem;
    padding-top: 3px;
 }
 
