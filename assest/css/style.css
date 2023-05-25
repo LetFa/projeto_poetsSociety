@@ -132,16 +132,17 @@ header  .btn-login i{
 }
 
 .poemas-destaques h2{
-    margin-left: 10rem;
+    margin-left: 5rem;
     margin-top: 3rem;
     color: #063E7D;
+    font-size: 35px;
 }
 
 .flex-poema{
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
     padding: 20px;
     height: 370px;
     flex-wrap: wrap;
@@ -154,16 +155,19 @@ header  .btn-login i{
    padding: 0px 15px;
 }
 .flex-poema .poema .perfil{
-   padding-top: 3px;
+  float: right;
+  padding-top: 5px;
 }
 
 .flex-poema .poema h3{
   color: #0E2A4A;
   font-size: 32px;
+  margin-top: 20px;
 }
 .flex-poema .poema .data{
     margin-left: 10rem;
     color: #1683FF;
+
 }
 
 .flex-poema .poema .btn-poema{
@@ -200,10 +204,60 @@ header  .btn-login i{
     margin-top: 4px;
 }
 
+/*sobre nós*/
+
+.sobre{
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    background-color: #EAF4FF;
+    padding: 30px;
+}
 
 
+.img img{
+    width: 400px;
+    height: 350px;
+}
 
+.sobre-texto{
+    width: 100%;
+    max-width:755px;
+    text-align: justify;
+}
 
+.sobre-texto h3{
+    font-size: 40px;
+    color: #0E2A4A;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
+.sobre-texto p{
+    font-size: 20px;
+}
 
+.poema-categorias-inicio h2 {
+    
+    margin-bottom:  15px;
+    margin-top: 40px;
+    margin-left: 5rem;
+    color: #063E7D;
+    font-size: 35px;
+}
 
+.texto-categoria {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+footer {
+    background-color:#A4BAD2;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+
+}
