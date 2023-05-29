@@ -142,9 +142,8 @@ header  .btn-login i{
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     padding: 20px;
-    height: 370px;
     flex-wrap: wrap;
 }
 
@@ -152,7 +151,7 @@ header  .btn-login i{
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
     width: 100%;
     max-width: 400px;
-   padding: 0px 15px;
+    padding: 0px 15px;
 }
 .flex-poema .poema .perfil{
   float: right;
@@ -194,6 +193,7 @@ header  .btn-login i{
    align-items: center;
    gap:10px;
    margin-top: 10px;
+   padding-bottom: 10px;
 }
 .flex-poema .poema .icones .icone-coracao i{
    color: red;
@@ -204,59 +204,44 @@ header  .btn-login i{
     margin-top: 4px;
 }
 
-/*sobre nós*/
 
-.sobre{
-    display:flex;
+.flex-poema-segundo{
+    display: flex;
     justify-content: center;
-    gap: 100px;
-    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;   
+}
+
+
+/*sobre nós*/
+.sobre-inicio{
     background-color: #EAF4FF;
     padding: 30px;
+    margin-top: 3rem;
 }
-
-
-.img img{
-    width: 400px;
-    height: 350px;
+.flex-sobre-inicio{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    flex-wrap: wrap;
 }
-
-.sobre-texto{
+.flex-sobre-inicio  img{
+    width: 380px;
+    height: 340px;
+}
+.texto-sobre{
     width: 100%;
-    max-width:755px;
+    max-width: 810px;
     text-align: justify;
 }
-
-.sobre-texto h3{
-    font-size: 40px;
+.texto-sobre h3{
+    text-align: center;
     color: #0E2A4A;
-    font-weight: 700;
-    text-align: center;
     margin-bottom: 30px;
+    font-size: 30px;
 }
 
-.sobre-texto p{
+.texto-sobre p{
     font-size: 20px;
-}
-
-.poema-categorias-inicio h2 {
-    
-    margin-bottom:  15px;
-    margin-top: 40px;
-    margin-left: 5rem;
-    color: #063E7D;
-    font-size: 35px;
-}
-
-.texto-categoria {
-    font-size: 20px;
-    text-align: center;
-
-}
-
-footer {
-    background-color:#A4BAD2;
-    padding: 20px;
-    text-align: center;
-    font-size: 15px;
 }
